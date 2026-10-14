@@ -33,6 +33,9 @@ The following commands were used to verify network connectivity and switch opera
 - Switch interfaces Fa0/1 and Fa0/2 were connected.
 - Both interfaces operated in VLAN 1.
 - The switch learned two dynamic MAC addresses.
+<img width="1151" height="880" alt="image" src="https://github.com/user-attachments/assets/5abea438-e374-4856-aaa3-3ca3a8ac9f71" />
+
+
 
 **Result:** Local network connectivity was successfully verified.
 

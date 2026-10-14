@@ -9,6 +9,7 @@ Build a small LAN using a Cisco 2960 switch and two PCs, verify network connecti
 - **PC-B:** 192.168.1.20/24 – connected to Fa0/2
 - **Network:** 192.168.1.0/24
 - **Software:** Cisco Packet Tracer
+<img width="853" height="520" alt="image" src="https://github.com/user-attachments/assets/1187e8e2-bf2c-4051-b29b-bfcc2dc2491f" />
 
 ## Part 1 – Network Configuration
 

@@ -27,7 +27,8 @@ The initial MAC address table contained no dynamic entries. After generating net
 
 **Result:** The switch successfully learned MAC addresses on Fa0/1, Fa0/2 and Fa0/3.
 
-*Figure 1 – Dynamic MAC Address Table showing three learned MAC addresses.*
+<img width="592" height="314" alt="image" src="https://github.com/user-attachments/assets/7ec1d27d-d021-48c8-981d-e5407dac2d32" />
+
 
 ## Part 2 – ARP & Frame Forwarding
 
@@ -46,7 +47,8 @@ After clearing the ARP cache, a new ARP Request was generated.
 
 **Result:** ARP address resolution and Ethernet frame forwarding were successfully observed.
 
-*Figure 2 – Packet Tracer Simulation Mode showing ARP and ICMP events.*
+<img width="1702" height="690" alt="image" src="https://github.com/user-attachments/assets/a53208fb-f811-4616-a5ab-2c9815bab997" />
+
 
 ## Part 3 – Incident #003: VLAN Misconfiguration
 
@@ -80,8 +82,12 @@ show vlan brief
 - PC-C → PC-B: 4 replies, 0% packet loss.
 
 **Result:** Network connectivity was successfully restored.
+<img width="1166" height="1006" alt="image" src="https://github.com/user-attachments/assets/6eac0951-77aa-468e-8bec-b338727d4f8d" />
+
 
 *Figure 3 – VLAN 20 misconfiguration identified using Cisco CLI.*
+<img width="914" height="613" alt="image" src="https://github.com/user-attachments/assets/d05da7ab-fa8b-41f5-8ef3-eabd21401244" />
+
 
 *Figure 4 – Correct VLAN assignment and successful connectivity tests.*
 

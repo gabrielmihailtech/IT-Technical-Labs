@@ -28,6 +28,8 @@ The network administrator must configure the VLANs, assign the appropriate switc
 - 4 × PC-PT computers
 - Copper Straight-Through cables
 
+<img width="972" height="474" alt="image" src="https://github.com/user-attachments/assets/084152d8-f133-46fd-9fde-ac51a3330158" />
+
 ---
 
 ## Network Topology

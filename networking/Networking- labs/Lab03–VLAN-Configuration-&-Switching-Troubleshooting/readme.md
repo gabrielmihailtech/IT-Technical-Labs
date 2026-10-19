@@ -129,6 +129,9 @@ show vlan brief
 
 **Result:** Both VLANs were successfully created, and all four access ports were correctly assigned.
 
+<img width="946" height="552" alt="image" src="https://github.com/user-attachments/assets/b1bf3557-45cb-4462-9828-748dc7750704" />
+
+
 *Figure 1 – VLAN configuration verified using `show vlan brief`.*
 
 ---
@@ -271,6 +274,8 @@ The network had no inter-VLAN routing configured to provide communication betwee
 
 **Affected OSI Layer:** Layer 2 – Data Link.
 
+<img width="673" height="640" alt="image" src="https://github.com/user-attachments/assets/3710da86-aa97-4c39-8ca6-e316c2b6290d" />
+
 *Figure 2 – Incorrect VLAN assignment identified using `show vlan brief`.*
 
 ## Resolution
@@ -301,6 +306,9 @@ show vlan brief
 
 The switch confirmed that Fa0/3 had been restored to the correct VLAN.
 
+<img width="922" height="379" alt="image" src="https://github.com/user-attachments/assets/340834c2-9abd-48f1-98b5-74f09cf134ab" />
+
+
 *Figure 3 – Correct VLAN assignments after troubleshooting.*
 
 ### Step 5 – Verify Connectivity
@@ -319,6 +327,9 @@ ping 192.168.10.20
 **Status:** Successful.
 
 Communication between PC-A and PC-C was restored.
+
+<img width="708" height="329" alt="image" src="https://github.com/user-attachments/assets/5b1066e3-38d3-4278-94de-9f18ce24608a" />
+
 
 *Figure 4 – Successful ping test after correcting the VLAN configuration.*
 
